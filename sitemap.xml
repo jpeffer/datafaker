@@ -85,4 +85,9 @@
          <lastmod>2022-05-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
+    <url>
+         <loc>https://www.datafaker.net/releases/1.5.0-SNAPSHOT/</loc>
+         <lastmod>2022-05-20</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
 </urlset>
