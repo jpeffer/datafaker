@@ -23,7 +23,7 @@ public class AbstractFakerTest {
         return true;
     }, "condition");
 
-    protected static Faker faker;
+    protected static SportsFaker faker;
 
     @BeforeEach
     public void before() {
@@ -42,7 +42,7 @@ public class AbstractFakerTest {
         faker = getFaker();
     }
 
-    protected static Faker getFaker() {
-        return faker == null ? new Faker() : faker;
+    protected static SportsFaker getFaker() {
+        return faker == null ? new SportsFaker() : faker;
     }
 }

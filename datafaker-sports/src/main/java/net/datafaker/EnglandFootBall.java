@@ -5,9 +5,9 @@ package net.datafaker;
  */
 public class EnglandFootBall {
 
-    private final Faker faker;
+    private final SportsFaker faker;
 
-    protected EnglandFootBall(final Faker faker) {
+    protected EnglandFootBall(final SportsFaker faker) {
         this.faker = faker;
     }
 

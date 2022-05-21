@@ -22,6 +22,10 @@ public class Faker {
     private final FakeValuesService fakeValuesService;
     private final Map<Class<?>, Object> providersMap = new IdentityHashMap<>();
 
+    private final MediaFaker mediaFaker = new MediaFaker();
+    private final SportsFaker sportsFaker = new SportsFaker();
+
+
     public Faker() {
         this(Locale.ENGLISH);
     }
@@ -491,7 +495,7 @@ public class Faker {
     }
 
     public EnglandFootBall englandfootball() {
-        return getProvider(EnglandFootBall.class, () -> new EnglandFootBall(this));
+        return sportsFaker.englandfootball();
     }
 
     public ElectricalComponents electricalComponents() {
@@ -801,7 +805,7 @@ public class Faker {
     }
 
     public TheItCrowd theItCrowd() {
-        return getProvider(TheItCrowd.class, () -> new TheItCrowd(this));
+        return getProvider(TheItCrowd.class, () -> new TheItCrowd(mediaFaker));
     }
 
     public Time time() {

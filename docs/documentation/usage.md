@@ -8,7 +8,7 @@ constructor.
 === "Java"
 
     ``` java
-    import net.datafaker.Faker;
+    import net.datafaker.InternalFaker;
     
     Faker faker = new Faker();
 
@@ -18,7 +18,7 @@ constructor.
 === "Kotlin"
 
     ```
-    import net.datafaker.Faker
+    import net.datafaker.InternalFaker
     
     val faker = Faker()
     

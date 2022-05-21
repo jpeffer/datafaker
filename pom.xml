@@ -2,7 +2,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>net.datafaker</groupId>
     <artifactId>datafaker</artifactId>
-    <packaging>jar</packaging>
+    <packaging>pom</packaging>
     <version>1.5.0-SNAPSHOT</version>
     <name>Data Faker</name>
     <description>
@@ -11,6 +11,13 @@
         It's useful when you're developing a new project and need some pretty data for showcase.
     </description>
     <url>https://www.datafaker.net</url>
+
+    <modules>
+        <module>datafaker-all</module>
+        <module>datafaker-media</module>
+        <module>datafaker-sports</module>
+        <module>datafaker-core</module>
+    </modules>
     <developers>
         <developer>
             <name>Erik Pragt</name>

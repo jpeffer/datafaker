@@ -68,7 +68,7 @@ To use Datafaker to generate fake data, you can use the following code as an exa
 === "Java"
 
     ``` java
-    import net.datafaker.Faker;
+    import net.datafaker.InternalFaker;
     
     Faker faker = new Faker();
     
@@ -82,7 +82,7 @@ To use Datafaker to generate fake data, you can use the following code as an exa
 === "Kotlin"
 
     ```
-    import net.datafaker.Faker
+    import net.datafaker.InternalFaker
     
     val faker = Faker()
     

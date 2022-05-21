@@ -5,9 +5,9 @@ package net.datafaker;
  */
 public class TheItCrowd {
 
-    private final Faker faker;
+    private final MediaFaker faker;
 
-    protected TheItCrowd(Faker faker) {
+    protected TheItCrowd(MediaFaker faker) {
         this.faker = faker;
     }
 
