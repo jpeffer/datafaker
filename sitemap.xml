@@ -2,92 +2,92 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://www.datafaker.net/</loc>
-         <lastmod>2022-05-20</lastmod>
+         <lastmod>2022-05-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.datafaker.net/documentation/collections/</loc>
-         <lastmod>2022-05-20</lastmod>
+         <lastmod>2022-05-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.datafaker.net/documentation/contributing/</loc>
-         <lastmod>2022-05-20</lastmod>
+         <lastmod>2022-05-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.datafaker.net/documentation/custom-providers/</loc>
-         <lastmod>2022-05-20</lastmod>
+         <lastmod>2022-05-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.datafaker.net/documentation/date-format/</loc>
-         <lastmod>2022-05-20</lastmod>
+         <lastmod>2022-05-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.datafaker.net/documentation/expressions/</loc>
-         <lastmod>2022-05-20</lastmod>
+         <lastmod>2022-05-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.datafaker.net/documentation/file-formats/</loc>
-         <lastmod>2022-05-20</lastmod>
+         <lastmod>2022-05-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.datafaker.net/documentation/getting-started/</loc>
-         <lastmod>2022-05-20</lastmod>
+         <lastmod>2022-05-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.datafaker.net/documentation/license/</loc>
-         <lastmod>2022-05-20</lastmod>
+         <lastmod>2022-05-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.datafaker.net/documentation/providers/</loc>
-         <lastmod>2022-05-20</lastmod>
+         <lastmod>2022-05-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.datafaker.net/documentation/usage/</loc>
-         <lastmod>2022-05-20</lastmod>
+         <lastmod>2022-05-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.datafaker.net/releases/0.9.0/</loc>
-         <lastmod>2022-05-20</lastmod>
+         <lastmod>2022-05-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.datafaker.net/releases/1.0.0/</loc>
-         <lastmod>2022-05-20</lastmod>
+         <lastmod>2022-05-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.datafaker.net/releases/1.1.0/</loc>
-         <lastmod>2022-05-20</lastmod>
+         <lastmod>2022-05-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.datafaker.net/releases/1.2.0/</loc>
-         <lastmod>2022-05-20</lastmod>
+         <lastmod>2022-05-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.datafaker.net/releases/1.3.0/</loc>
-         <lastmod>2022-05-20</lastmod>
+         <lastmod>2022-05-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.datafaker.net/releases/1.4.0/</loc>
-         <lastmod>2022-05-20</lastmod>
+         <lastmod>2022-05-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.datafaker.net/releases/1.5.0-SNAPSHOT/</loc>
-         <lastmod>2022-05-20</lastmod>
+         <lastmod>2022-05-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
