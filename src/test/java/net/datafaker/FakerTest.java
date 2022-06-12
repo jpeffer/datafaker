@@ -7,6 +7,7 @@ import org.junit.jupiter.params.provider.ValueSource;
 
 import java.util.Collections;
 import java.util.Locale;
+import java.util.concurrent.Callable;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.assertThatThrownBy;
@@ -270,5 +271,17 @@ class FakerTest extends AbstractFakerTest {
         assertThat(Faker.instance(Locale.CANADA)).isInstanceOf(Faker.class);
         assertThat(Faker.instance(1)).isInstanceOf(Faker.class);
         assertThat(Faker.instance(Locale.CHINA, 2)).isInstanceOf(Faker.class);
+    }
+
+    @Test
+    void differentLocalesTest() {
+        Callable<String> stringCallable = () -> faker.name().firstName();
+        faker.name().firstName();
+        faker.doWith(stringCallable, new Locale("ru_RU"));
+        faker.doWith(stringCallable, Locale.GERMAN);
+        faker.doWith(stringCallable, Locale.SIMPLIFIED_CHINESE);
+        for (int i = 0; i < 10; i++) {
+            assertThat(faker.doWith(stringCallable ,new Locale("ru_RU"))).matches("[а-яА-ЯЁё ]+");
+        }
     }
 }
